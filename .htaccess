@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /smkn2kotajambi/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+IndexIgnore *.sql 
+
+RewriteRule ^operator/$ operator/index.php
+RewriteRule ^guru$ dashboard/pages/guru.php [L]
+RewriteRule ^kinerja/guru$ dashboard/pages/kinerja_guru.php [L]
+RewriteRule ^spk/guru$ dashboard/pages/spk_profilmatching.php [L]
+RewriteRule ^edit/guru$ dashboard/pages/edit_guru.php [L]
+RewriteRule ^loading/prosses$ prosses.php [L]
+RewriteRule ^laporan$ dashboard/pages/laporan.php [L]
+RewriteRule ^kelola-pengguna$ dashboard/pages/kelola_pengguna.php [L]
+RewriteRule ^edit/pengguna$ dashboard/pages/edit_pengguna.php [L]
+
+RewriteRule ^profil-pengguna$ dashboard/pages/profil.php [L]
+
+RewriteRule ^edit/profil$ dashboard/pages/edit_profil.php [L]

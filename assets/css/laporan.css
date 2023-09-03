@@ -1,0 +1,40 @@
+body{
+  background-color: #1a1a1a;
+}
+.laporan {
+  width: 210mm;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+.background-laporan{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  width: 40%;
+  /*background-color: white;
+  background-image: url('http://localhost/smkn2kotajambi/assets/images/logo_smk2kotajambi.png');
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  opacity: 0.1;
+}
+
+.head-laporan {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+.text-title{
+  font-size:16px; 
+  font-weight:600;
+}
+.head-laporan-table{
+  color: white;
+  background-color: #404040; color:white;border-radius: 10px 0 0 0 ;
+}

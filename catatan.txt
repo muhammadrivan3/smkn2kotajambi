@@ -1,0 +1,57 @@
+
+PERINGATAN!!! : UNTUK PENGAKTIFAN DESIGN DAN FUNGSI JQUERY DAN BOOTSTRAP DIHARUS KAN UNTUK MENGHIDUPKAN JARINGAN
+
+DATABASE : pkg_smk2kotajambi
+
+AKTOR : 
+	- ADMIN => username : admin
+			=> password : admin 
+	- operator => username : operator
+			   => password : operator123
+	- Kepala Sekolah => username : Sujono
+					 => password : Sujono123
+
+
+TABLE : - identitas_guru
+		- identitas_sekolah
+		- kode_registrasi
+		- pkg_kepribadian
+		- pkg_pendagogik
+		- pkg_prestasi
+		- pkg_profesional
+		- pkg_sosial
+		- user
+		- profil_user
+
+perhitungan
+Step 1
+	total = (total skor per-kompetensi/skor tertinggi dari per-kompetensi)*100;
+Step 2
+	jika kompetensi < 25 = 1Poin = Buruk;
+	jika kompetensi >25 atau < 50 = 2Poin = Cukup;
+	jika kompetensi >50 atau < 75 = 3Poin = Baik;
+	jika kompetensi >75 atau < 100 = 4Poin = Sangat Baik;
+step 3
+	Hasil Penilaian Kinerja Guru (Skala 100) : (Skor/56) x 100
+
+
+beberapa menu yang ada pada aplikasi metode profile matching SMKN2KOTAJAMBI :
+- Register : membuat akun  untuk mengakses aplikasi
+- Login : untuk membatasi hak akses ke dalam aplikasi
+- Alternatif : untuk mengolah data alternatif (dalam hal ini adalah guru). pengolahan data alternatif meliputi tambah, ubah, hapus data.
+- Aspek : untuk mengolah data aspek yang menjadi kompetensi pembanding. Pengolahan data Aspek meliputi tambah, ubah, dan hapus data.
+- Kriteria :untuk mengolah data kriteria dari masing-masing aspek yang ada, meliputi tambah, ubah, dan hapus data.
+- Profile : berisi nilai profile berdasarkan data aspek dan kriteria yang ada.
+- Perhitungan : untuk melakukan proses perhitungan pemetaan gap kompetensi.
+- Password : untuk merubah password user yang login
+- Logout : untuk keluar dari aplikasi.
+
+
+
+Nama : Muhammad Rivan
+Pendagogik1
+	- kopetensi1 = 50
+	- kopetensi2 = 50
+Pendagogik2
+	- kopetensi1 = 50
+	- kopetensi2 = 50
