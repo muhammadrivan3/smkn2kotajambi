@@ -163,6 +163,8 @@ $queryGuru = mysqli_query($konek, "SELECT * FROM identitas_guru ");
 									<img alt="Foto Guru" src=<?php echo "http://localhost/smkn2kotajambi/assets/images/guru/" . $dataKinerjaGuru['foto']; ?> style="width: 100px; height: 100px;">
 									<h3><?php echo "" . $dataKinerjaGuru['nama']; ?></h3>
 								</div>
+								<div class="kompetensi">
+									<h3>PENDAGOGIK</h3>
 								<!-- SISTEMATIKA BERPIKIR -->
 								<div class="kompetensi" id="kompetensi-1">
 									<button type="button" id="1" style="background: none;border: none;
@@ -889,6 +891,9 @@ $queryGuru = mysqli_query($konek, "SELECT * FROM identitas_guru ");
 									</div>
 								</div>
 
+								</div>
+								<div class="kompetensi">
+									<h3>KEPRIBADIAN</h3>
 								<div class="kompetensi" id="kompetensi-8">
 									<button type="button" id="8" style="background: none;border: none;
 									padding: 10px 20px;
@@ -1162,7 +1167,11 @@ $queryGuru = mysqli_query($konek, "SELECT * FROM identitas_guru ");
 									</div>
 								</div>
 								<!-- ------------------------------------------------------------------------------------------------------------- -->
-
+								
+								</div>
+								
+								<div class="kompetensi">
+									<h3>SOSIAL</h3>
 								<div class="kompetensi" id="kompetensi-11">
 									<button type="button" id="11" style="background: none;border: none;
 									padding: 10px 20px;
@@ -1344,7 +1353,10 @@ $queryGuru = mysqli_query($konek, "SELECT * FROM identitas_guru ");
 
 									</div>
 								</div>
-
+								</div>
+								
+								<div class="kompetensi">
+									<h3>PROFESIONAL</h3>
 								<div class="kompetensi" id="kompetensi-13">
 									<button type="button" id="13" style="background: none;border: none;
 									padding: 10px 20px;
@@ -1528,7 +1540,9 @@ $queryGuru = mysqli_query($konek, "SELECT * FROM identitas_guru ");
 									</div>
 								</div>
 								<!-- ---------------------------------------------------------------------------------------------------------- -->
-
+								</div>
+								<div class="kompetensi">
+									<h3>PRESTASI</h3>																											
 								<div class="kompetensi" id="kompetensi-15">
 									<button type="button" id="15" style="background: none;border: none;
 									padding: 10px 20px;
@@ -1616,6 +1630,7 @@ $queryGuru = mysqli_query($konek, "SELECT * FROM identitas_guru ");
 										</div>
 									</div>
 									
+								</div>
 								</div>
 
 								<div style="text-align:right;">
